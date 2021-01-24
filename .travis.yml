@@ -23,9 +23,9 @@ before_deploy:
 deploy:
   provider: pypi
   username: __token__
-  password: pypi-AgENdGVzdC5weXBpLm9yZwIkNzkzYTVjYmItYWQ4Ni00ZjYwLWJkN2QtMTJkOTVhYWY4YzdiAAIleyJwZXJtaXNzaW9ucyI6ICJ1c2VyIiwgInZlcnNpb24iOiAxfQAABiCM3t_wx4Wc5vLujpZT8fAbk5hEVq9HEyf-9QYmYG8aPQ
+  password:
+    secure: JOG+Hmk76K2WrYng3q9j44Hxws0u4afURamGnkP1MpMIcxXngKKN2sybpQQzlAo/dk+DX+GzhHvoqH2OEOMQfOBf6n922DPS9+aFZoC+qDPgTaipoePWZ448D7tjG87nxMASae1jTjH6VBkHL+gU9kwKixxkgYJmOmL+37kEIHTEY4QN8zBk53tGv6vDmnW+tAzygo8HkKe/bozpZ/I4wO32PEVdRZ9iHjHEs3Gbmx8o2vc/bXCcDzov+vX7f97Gl7czj69twH5NeUZO5q6icHVR8Ya/JNav6aHpO6dhi8X2a8hW6/1ZK+LEgQh//bDysDsvHWFuCvs9lQzM2neY07cOxhrWhDiYpmcAdFskpsz2k8bspZcQsrS5M/uw43zb6GIriqB2zzvj+PtrDxuUX7QoRMMVjTDZgHnnxUScg3yK+VLNcPrqbU11ggMU3dQJfnRMFREwCHx8eDnMTVqm24QQNtjg9hqCIpwpzxzqR+YE1VsYn48C+McuUys20q4LltwUmIH3TKXtKblpQUlgyE/GYH0pLodbSMzQRkeB8HaET1NGqljzNRLq55OsdSsafkOfvnn6orZji0fMgG6tseACJIGsaO32nuaY8cfIHHPvpmbLsHt/sWrqSRDusEBai7xUtRuOMdnCPsHEapGwz/4paeni9o5OmulekLZX3UQ=
   on:
     tags: true
   skip_cleanup: true
   server: https://test.pypi.org/legacy/
-
