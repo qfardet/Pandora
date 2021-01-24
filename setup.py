@@ -64,7 +64,7 @@ def readme():
         return fstream.read()
 
 
-setup(name='pandora',
+setup(name='pandora-pour-tester-quoi-juste-ok',
       version='x.y.z',
       description='Pandora is a stereo matching framework that helps emulate state of the art algorithms',
       long_description=readme(),
