@@ -23,8 +23,7 @@ before_deploy:
 deploy:
   provider: pypi
   user: __token__
-  password:
-    secure: "YiOSuSm80tJ/LENvplwTuVpi/3jASeC+vpAFagEyR3kQKXFN2U/MI34RlFQ4MCBrWnmm+haP0PM30Zg7hNXbp0EBsDRibua5OcBxajAq8odpE/mR2M7WMfKaXCB5sg/F/FkRts/eXZYniTT6PEOi4zGaZwcrh7VKG7ACWb7JKzAsaTqStwmF5FMqrMWJqf7w4+LWLVV7oMl/jO8MPxoKJZtaHqBTOBYIQmE/wmWvuUZYuog24zbzOFO+uaCieRsEb6n1KvnV1CJB/aB3/RcSJVFx1MrJbARxqElUblBlYzD79X4etnkq7j7n4r1PLU7jve5V58k9dWbQ7iGYS1YK+9+osfZ3dz2oR0j5QOwjvBYDLmoTJ5XTkWKqPkA9iyzpcqAs9hHRTeALkN27rcTfW1i110ZL0kvLWRFsE0XvWUBevUQEeRLMUsCl/GvN81ighFCaNIHlyAtDAK1FO5XDlcrjb6YeBCcODq5cc0C2cr6AJ1P/2z+jvHjqYSMJPEpaHwmVOWTuZkXqg9Z3drjS3Auz6J1B/dmDFzYn2+i5kFn3g0yEv1ZYD8PhEPVEONouEkdAGcllYKY6Z6pfziEPVJEP3fznYsk8xNKSL83kgEDGGGe03gbymjXbGlLkdHUAnLPp0+CJDSJf2GIXgh8txy/7ZZ63Pnh1RbwGk7RwY8c="
+  password: $test_pypi_token
   on:
     tags: true
   skip_cleanup: true
