@@ -1,3 +1,4 @@
+pandora
 ipyvolume
 bokeh
 matplotlib
